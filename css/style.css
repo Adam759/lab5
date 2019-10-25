@@ -4,7 +4,6 @@
      background: #050505;
      color: #a3a3a3;
      font-family: "Ubuntu", Arial, sans-serif;
-     overflow-x: hidden;
 }
  h1 {
      font-family: "Monda", Arial, sans-serif;
@@ -48,7 +47,6 @@
 }
  ul {
      text-align: left;
-     width: 250%;
      line-height: 3.5;
      font-weight: bold;
 }
