@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Monda&display=swap');
+ body {
+     text-align: center;
+     background: #050505;
+     color: #a3a3a3;
+     font-family: "Ubuntu", Arial, sans-serif;
+     overflow-x: hidden;
+}
+ h1 {
+     font-family: "Monda", Arial, sans-serif;
+     font-weight: lighter;
+     font-size: 350%;
+     margin-bottom: 0;
+}
+ hr {
+     width: 42%;
+     height: 2px;
+     background-color: grey;
+     border: none;
+}
+ .planet-image {
+     max-height: 42vh;
+     padding: 10vh 0 10vh 0;
+}
+ table {
+     border-collapse: collapse;
+     margin: 0 auto;
+     margin-left: 10vw;
+     vertical-align: central;
+}
+ th {
+     border-bottom: 2px solid grey;
+}
+ td {
+     border-bottom: 1px solid grey;
+}
+ th, td {
+     padding: 1vw;
+}
+ td:nth-child(1) {
+     font-size: 400%;
+}
+ td:nth-child(3) {
+     font-size: 100%;
+     padding: 0;
+}
+ tr:nth-child(4) td {
+     border-bottom: none;
+}
+ ul {
+     text-align: left;
+     width: 250%;
+     line-height: 3.5;
+     font-weight: bold;
+}
